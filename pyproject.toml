@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ml"
+version = "0.1.0"
+description = ""
+authors = ["Igor Ignatenko <rireroofc@gmail.comcd>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.1"
+argparse = "^1.4.0"
+logging = "^0.4.9.6"
+scikit-learn = "^1.4.1.post1"
+catboost = "^1.2.3"
+flask = "^3.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
